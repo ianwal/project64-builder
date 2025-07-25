@@ -19,6 +19,7 @@ jobs:
       with:
         submodules: recursive
         repository: project64/project64
+        ref: 3.0-develop
 
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v2
