@@ -23,6 +23,8 @@ jobs:
 
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v2
+      with:
+        vs-version: '[16.11)'
 
     - name: Build app for release
       run: msbuild Project64.sln
