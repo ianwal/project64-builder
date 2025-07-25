@@ -26,3 +26,6 @@ jobs:
 
     - name: Build app for release
       run: msbuild Project64.sln
+
+    - name: ls
+      run: dir
