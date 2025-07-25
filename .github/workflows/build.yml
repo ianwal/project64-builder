@@ -17,6 +17,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
+        submodules: recursive
         repository: project64/project64
 
     - name: Add msbuild to PATH
