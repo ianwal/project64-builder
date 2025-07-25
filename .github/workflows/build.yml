@@ -23,4 +23,4 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Build app for release
-      run: msbuild project64\Project64.sln
+      run: msbuild Project64.sln
