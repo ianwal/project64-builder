@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         submodules: recursive
-        repository: project64/project64
+        repository: ianwal/project64
 
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v2
