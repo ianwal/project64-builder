@@ -28,3 +28,9 @@ jobs:
 
     - name: ls
       run: dir
+
+    - name: Upload build artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Build Project64
+        path: build
